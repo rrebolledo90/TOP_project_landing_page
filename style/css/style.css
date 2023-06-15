@@ -81,6 +81,7 @@ section button {
   border-radius: 0.3125rem;
   border: none;
   padding: 5px 25px;
+  cursor: pointer;
 }
 section img {
   width: 500px;
@@ -100,4 +101,62 @@ section img {
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
+}
+
+.btm-section h2 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.box-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-cnt p {
+  font-size: 1.25rem;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 0.625rem;
+  color: #868e96;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #748ffc;
+  border-radius: 1.25rem;
+}
+
+.main-box {
+  padding-top: 3.125rem;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3.125rem;
+}
+
+.customer-q {
+  background-color: #748ffc;
+}
+.customer-q .quote {
+  padding-top: 100px;
+  font-size: 28px;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  font-weight: bold;
+  font-style: italic;
+  color: #dee2e6;
+  line-height: 1.5;
+}
+.customer-q span {
+  color: black;
+  padding-left: 400px;
 }/*# sourceMappingURL=style.css.map */
