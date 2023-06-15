@@ -22,7 +22,7 @@ dd {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 img,
@@ -31,17 +31,21 @@ picture {
   display: block;
 }
 
+.nav-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
 nav {
   background-color: #364fc7;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   padding-bottom: 3.125rem;
 }
 nav i {
-  font-size: 30px;
-  padding: 1.25rem;
+  font-size: 1.875rem;
 }
 nav h1 {
   font-size: 1.5rem;
@@ -62,6 +66,7 @@ section {
 section h1 {
   color: #fff;
   font-size: 3rem;
+  width: 50%;
 }
 section p {
   width: 80%;
@@ -87,6 +92,7 @@ section img {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 6.25rem;
 }
 
 .hero-content {
